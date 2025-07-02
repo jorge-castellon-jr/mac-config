@@ -1,0 +1,13 @@
+# Ignore everything in repository root 
+/*
+
+# Files to not ignore
+!/.gitignore
+!/.zshrc
+
+# Folder to not ignore
+!/aerospace/
+!/kitty/
+!/nvim/
+!/sketchybar/
+
