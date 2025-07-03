@@ -21,6 +21,8 @@ return {
         json = { "prettier" },
         typescriptreact = { "prettier" },
         python = { "isort", "black" },
+        bash = { "beautysh" },
+        sh = { "beautysh" },
       },
 
       format_on_save = {
