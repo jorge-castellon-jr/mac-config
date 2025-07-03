@@ -5,6 +5,10 @@ if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]
   source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
 fi
 
+plugins=(
+  zsh-syntax-highlighting
+)
+
 export COPYFILE_DISABLE=1
 
 export BUN_INSTALL="$HOME/.bun" 
