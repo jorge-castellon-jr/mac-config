@@ -18,6 +18,9 @@ for package in ${brewPackages[@]}; do
   brew install ${package}
 done
 
+cp ~/.config/.spaceshiprc.zsh ~/.spaceshiprc.zsh
+cp ~/.config/.p10k.zsh ~/.p10k.zsh
+
 echo "source $(brew --prefix)/share/powerlevel10k/powerlevel10k.zsh-theme" >>~/.config/.zshrc
 source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 
